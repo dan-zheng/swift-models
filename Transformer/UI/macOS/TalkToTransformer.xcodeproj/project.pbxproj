@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DEB2FB23FFABC900272331 /* Transformer in Frameworks */ = {isa = PBXBuildFile; productRef = A6DEB2FA23FFABC900272331 /* Transformer */; };
+		A6DEB2FD23FFABEB00272331 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DEB2FC23FFABEB00272331 /* Transformer.swift */; };
+		A6FF00CB23F37F3700E4DD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF00CA23F37F3700E4DD28 /* AppDelegate.swift */; };
+		A6FF00CD23F37F3700E4DD28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF00CC23F37F3700E4DD28 /* ContentView.swift */; };
+		A6FF00D023F37F3700E4DD28 /* TalkToTransformer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6FF00CE23F37F3700E4DD28 /* TalkToTransformer.xcdatamodeld */; };
+		A6FF00D223F37F3800E4DD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FF00D123F37F3800E4DD28 /* Assets.xcassets */; };
+		A6FF00D523F37F3800E4DD28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FF00D423F37F3800E4DD28 /* Preview Assets.xcassets */; };
+		A6FF00D823F37F3800E4DD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FF00D623F37F3800E4DD28 /* Main.storyboard */; };
+		A6FF00E423F37F3800E4DD28 /* TalkToTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF00E323F37F3800E4DD28 /* TalkToTransformerTests.swift */; };
+		A6FF00EF23F37F3800E4DD28 /* TalkToTransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF00EE23F37F3800E4DD28 /* TalkToTransformerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6FF00E023F37F3800E4DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FF00BF23F37F3600E4DD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FF00C623F37F3700E4DD28;
+			remoteInfo = TalkToTransformer;
+		};
+		A6FF00EB23F37F3800E4DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FF00BF23F37F3600E4DD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FF00C623F37F3700E4DD28;
+			remoteInfo = TalkToTransformer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6DEB2FC23FFABEB00272331 /* Transformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+		A6FF00C723F37F3700E4DD28 /* TalkToTransformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToTransformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF00CA23F37F3700E4DD28 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 4; };
+		A6FF00CC23F37F3700E4DD28 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		A6FF00CF23F37F3700E4DD28 /* TalkToTransformer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TalkToTransformer.xcdatamodel; sourceTree = "<group>"; };
+		A6FF00D123F37F3800E4DD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FF00D423F37F3800E4DD28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6FF00D723F37F3800E4DD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FF00D923F37F3800E4DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FF00DA23F37F3800E4DD28 /* TalkToTransformer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TalkToTransformer.entitlements; sourceTree = "<group>"; };
+		A6FF00DF23F37F3800E4DD28 /* TalkToTransformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToTransformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF00E323F37F3800E4DD28 /* TalkToTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToTransformerTests.swift; sourceTree = "<group>"; };
+		A6FF00E523F37F3800E4DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FF00EA23F37F3800E4DD28 /* TalkToTransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToTransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF00EE23F37F3800E4DD28 /* TalkToTransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToTransformerUITests.swift; sourceTree = "<group>"; };
+		A6FF00F023F37F3800E4DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FF00C423F37F3700E4DD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DEB2FB23FFABC900272331 /* Transformer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00DC23F37F3800E4DD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00E723F37F3800E4DD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6FF00BE23F37F3600E4DD28 = {
+			isa = PBXGroup;
+			children = (
+				A6FF00C923F37F3700E4DD28 /* TalkToTransformer */,
+				A6FF00E223F37F3800E4DD28 /* TalkToTransformerTests */,
+				A6FF00ED23F37F3800E4DD28 /* TalkToTransformerUITests */,
+				A6FF00C823F37F3700E4DD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6FF00C823F37F3700E4DD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF00C723F37F3700E4DD28 /* TalkToTransformer.app */,
+				A6FF00DF23F37F3800E4DD28 /* TalkToTransformerTests.xctest */,
+				A6FF00EA23F37F3800E4DD28 /* TalkToTransformerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FF00C923F37F3700E4DD28 /* TalkToTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF00CA23F37F3700E4DD28 /* AppDelegate.swift */,
+				A6FF00CC23F37F3700E4DD28 /* ContentView.swift */,
+				A6DEB2FC23FFABEB00272331 /* Transformer.swift */,
+				A6FF00D123F37F3800E4DD28 /* Assets.xcassets */,
+				A6FF00D623F37F3800E4DD28 /* Main.storyboard */,
+				A6FF00D923F37F3800E4DD28 /* Info.plist */,
+				A6FF00DA23F37F3800E4DD28 /* TalkToTransformer.entitlements */,
+				A6FF00CE23F37F3700E4DD28 /* TalkToTransformer.xcdatamodeld */,
+				A6FF00D323F37F3800E4DD28 /* Preview Content */,
+			);
+			path = TalkToTransformer;
+			sourceTree = "<group>";
+		};
+		A6FF00D323F37F3800E4DD28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF00D423F37F3800E4DD28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6FF00E223F37F3800E4DD28 /* TalkToTransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF00E323F37F3800E4DD28 /* TalkToTransformerTests.swift */,
+				A6FF00E523F37F3800E4DD28 /* Info.plist */,
+			);
+			path = TalkToTransformerTests;
+			sourceTree = "<group>";
+		};
+		A6FF00ED23F37F3800E4DD28 /* TalkToTransformerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF00EE23F37F3800E4DD28 /* TalkToTransformerUITests.swift */,
+				A6FF00F023F37F3800E4DD28 /* Info.plist */,
+			);
+			path = TalkToTransformerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6FF00C623F37F3700E4DD28 /* TalkToTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF00F323F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformer" */;
+			buildPhases = (
+				A6FF00C323F37F3700E4DD28 /* Sources */,
+				A6FF00C423F37F3700E4DD28 /* Frameworks */,
+				A6FF00C523F37F3700E4DD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkToTransformer;
+			packageProductDependencies = (
+				A6DEB2FA23FFABC900272331 /* Transformer */,
+			);
+			productName = TalkToTransformer;
+			productReference = A6FF00C723F37F3700E4DD28 /* TalkToTransformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FF00DE23F37F3800E4DD28 /* TalkToTransformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF00F623F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformerTests" */;
+			buildPhases = (
+				A6FF00DB23F37F3800E4DD28 /* Sources */,
+				A6FF00DC23F37F3800E4DD28 /* Frameworks */,
+				A6FF00DD23F37F3800E4DD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FF00E123F37F3800E4DD28 /* PBXTargetDependency */,
+			);
+			name = TalkToTransformerTests;
+			productName = TalkToTransformerTests;
+			productReference = A6FF00DF23F37F3800E4DD28 /* TalkToTransformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6FF00E923F37F3800E4DD28 /* TalkToTransformerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF00F923F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformerUITests" */;
+			buildPhases = (
+				A6FF00E623F37F3800E4DD28 /* Sources */,
+				A6FF00E723F37F3800E4DD28 /* Frameworks */,
+				A6FF00E823F37F3800E4DD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FF00EC23F37F3800E4DD28 /* PBXTargetDependency */,
+			);
+			name = TalkToTransformerUITests;
+			productName = TalkToTransformerUITests;
+			productReference = A6FF00EA23F37F3800E4DD28 /* TalkToTransformerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FF00BF23F37F3600E4DD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Dan Zheng";
+				TargetAttributes = {
+					A6FF00C623F37F3700E4DD28 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A6FF00DE23F37F3800E4DD28 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A6FF00C623F37F3700E4DD28;
+					};
+					A6FF00E923F37F3800E4DD28 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A6FF00C623F37F3700E4DD28;
+					};
+				};
+			};
+			buildConfigurationList = A6FF00C223F37F3600E4DD28 /* Build configuration list for PBXProject "TalkToTransformer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6FF00BE23F37F3600E4DD28;
+			packageReferences = (
+				A6DEB2F923FFABC900272331 /* XCRemoteSwiftPackageReference "swift-models" */,
+			);
+			productRefGroup = A6FF00C823F37F3700E4DD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6FF00C623F37F3700E4DD28 /* TalkToTransformer */,
+				A6FF00DE23F37F3800E4DD28 /* TalkToTransformerTests */,
+				A6FF00E923F37F3800E4DD28 /* TalkToTransformerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FF00C523F37F3700E4DD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF00D823F37F3800E4DD28 /* Main.storyboard in Resources */,
+				A6FF00D523F37F3800E4DD28 /* Preview Assets.xcassets in Resources */,
+				A6FF00D223F37F3800E4DD28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00DD23F37F3800E4DD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00E823F37F3800E4DD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FF00C323F37F3700E4DD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF00CD23F37F3700E4DD28 /* ContentView.swift in Sources */,
+				A6FF00CB23F37F3700E4DD28 /* AppDelegate.swift in Sources */,
+				A6FF00D023F37F3700E4DD28 /* TalkToTransformer.xcdatamodeld in Sources */,
+				A6DEB2FD23FFABEB00272331 /* Transformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00DB23F37F3800E4DD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF00E423F37F3800E4DD28 /* TalkToTransformerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF00E623F37F3800E4DD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF00EF23F37F3800E4DD28 /* TalkToTransformerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6FF00E123F37F3800E4DD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FF00C623F37F3700E4DD28 /* TalkToTransformer */;
+			targetProxy = A6FF00E023F37F3800E4DD28 /* PBXContainerItemProxy */;
+		};
+		A6FF00EC23F37F3800E4DD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FF00C623F37F3700E4DD28 /* TalkToTransformer */;
+			targetProxy = A6FF00EB23F37F3800E4DD28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FF00D623F37F3800E4DD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FF00D723F37F3800E4DD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6FF00F123F37F3800E4DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6FF00F223F37F3800E4DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A6FF00F423F37F3800E4DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TalkToTransformer/TalkToTransformer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToTransformer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TalkToTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6FF00F523F37F3800E4DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TalkToTransformer/TalkToTransformer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToTransformer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TalkToTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A6FF00F723F37F3800E4DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkToTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToTransformer.app/Contents/MacOS/TalkToTransformer";
+			};
+			name = Debug;
+		};
+		A6FF00F823F37F3800E4DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkToTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToTransformer.app/Contents/MacOS/TalkToTransformer";
+			};
+			name = Release;
+		};
+		A6FF00FA23F37F3800E4DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkToTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TalkToTransformer;
+			};
+			name = Debug;
+		};
+		A6FF00FB23F37F3800E4DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TalkToTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TalkToTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TalkToTransformer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6FF00C223F37F3600E4DD28 /* Build configuration list for PBXProject "TalkToTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF00F123F37F3800E4DD28 /* Debug */,
+				A6FF00F223F37F3800E4DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF00F323F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF00F423F37F3800E4DD28 /* Debug */,
+				A6FF00F523F37F3800E4DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF00F623F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF00F723F37F3800E4DD28 /* Debug */,
+				A6FF00F823F37F3800E4DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF00F923F37F3800E4DD28 /* Build configuration list for PBXNativeTarget "TalkToTransformerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF00FA23F37F3800E4DD28 /* Debug */,
+				A6FF00FB23F37F3800E4DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6DEB2F923FFABC900272331 /* XCRemoteSwiftPackageReference "swift-models" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tensorflow/swift-models";
+			requirement = {
+				kind = revision;
+				revision = 5e777d832febb512a3649ad2f787a90a913376ee;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6DEB2FA23FFABC900272331 /* Transformer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6DEB2F923FFABC900272331 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = Transformer;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A6FF00CE23F37F3700E4DD28 /* TalkToTransformer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6FF00CF23F37F3700E4DD28 /* TalkToTransformer.xcdatamodel */,
+			);
+			currentVersion = A6FF00CF23F37F3700E4DD28 /* TalkToTransformer.xcdatamodel */;
+			path = TalkToTransformer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6FF00BF23F37F3600E4DD28 /* Project object */;
+}
