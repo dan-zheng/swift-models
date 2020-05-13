@@ -116,6 +116,10 @@ public struct Lattice: Differentiable {
     positions = Array(repeating: Node(), count: count + 1)
   }
 
+  init(count: Int) {
+    positions = Array(repeating: Node(), count: count + 1)
+  }
+
   public init(positions: [Node]) {
     self.positions = positions
   }

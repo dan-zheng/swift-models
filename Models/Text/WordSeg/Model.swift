@@ -214,7 +214,8 @@ public struct SNLM: EuclideanDifferentiable, KeyPathIterable {
   // TODO: Triggers compiler crash.
   @differentiable
   public func buildLattice(_ sentence: CharacterSequence, maxLen: Int) -> Lattice {
-    var lattice = Lattice(count: sentence.count, embEnc.embeddings)
+    // var lattice = Lattice(count: sentence.count, embEnc.embeddings)
+    var lattice = Lattice(count: sentence.count).withDerivative { _ in assert(false) }
     let states = encode(sentence)
     let logg_batch = mlpInterpolation(Tensor(stacking: states))
     let logp_lex_batch = mlpMemory(Tensor(stacking: states))
