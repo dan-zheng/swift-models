@@ -293,6 +293,7 @@ public struct SNLM: EuclideanDifferentiable, KeyPathIterable {
     }
 
     // lattice[sentence.count].recomputeSemiringScore()
+/*
     let updatedNode = Lattice.Node(
       bestEdge: lattice[sentence.count].bestEdge,
       bestScore: lattice[sentence.count].bestScore,
@@ -300,6 +301,14 @@ public struct SNLM: EuclideanDifferentiable, KeyPathIterable {
       semiringScore: lattice[sentence.count].computeSemiringScore()
     )
     lattice.positions.update(at: sentence.count, to: updatedNode)
+*/
+/*
+    let updatedNode = lattice[sentence.count].with { $0.semiringScore = $0.computeSemiringScore() }
+    lattice.positions.update(at: sentence.count, to: updatedNode)
+*/
+    lattice.positions.update(at: sentence.count) { node in
+      node.semiringScore = node.computeSemiringScore()
+    }
 
     return lattice
   }
@@ -313,6 +322,14 @@ extension Array {
   @inlinable
   mutating func update(at index: Int, to value: Element) {
     self[index] = value
+  }
+
+  // NOTE(TF-1277): this mutating method exists as a workaround for `Array.subscript._modify` not
+  // being differentiable.
+  @inlinable
+  @differentiable(wrt: self)
+  mutating func update(at index: Int, with body: @differentiable (inout Element) -> Void) where Element: Differentiable {
+    body(&self[index])
   }
 
   @usableFromInline

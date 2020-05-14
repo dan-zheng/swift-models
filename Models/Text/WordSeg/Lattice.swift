@@ -95,6 +95,13 @@ public struct Lattice: Differentiable {
     }
 
     @differentiable
+    public func with(_ body: @differentiable (inout Self) -> Void) -> Node {
+      var result = self
+      body(&result)
+      return result
+    }
+
+    @differentiable
     func computeSemiringScore() -> SemiRing {
       // TODO: Reduceinto and +=
       semiRingSum(edges.differentiableMap{ $0.totalScore })
