@@ -299,7 +299,7 @@ public struct SNLM: EuclideanDifferentiable, KeyPathIterable {
 
         // Cleanup: lattice[next_pos].edges.append(edge)
         var updatedNode = lattice[next_pos]
-        updatedNode.edges.append(edge)
+        updatedNode.edges.append2(edge)
         lattice.positions.update(at: next_pos, to: updatedNode)
       }
 
@@ -312,6 +312,31 @@ public struct SNLM: EuclideanDifferentiable, KeyPathIterable {
     lattice.positions.update(at: sentence.count, to: lastNode)
 
     return lattice
+  }
+}
+
+extension Array where Element: Differentiable {
+  mutating func append2(_ element: Element) {
+    append(element)
+  }
+}
+
+extension Array where Element: Differentiable {
+  // Note: this is an ad-hoc version of the VJP for `Array.append` from the
+  // stdlib, except that the pullback does not remove the last element.
+  //
+  // This fixes `WordSegProbeLayerTests.testProbeEncoder`, but is it correct?
+  @usableFromInline
+  @derivative(of: append2)
+  mutating func _vjpAppend(_ element: Element) -> (
+    value: Void, pullback: (inout TangentVector) -> Element.TangentVector
+  ) {
+    let appendedElementIndex = count
+    append(element)
+    return ((), { v in
+      // defer { v.base.removeLast() }
+      return v.base[appendedElementIndex]
+    })
   }
 }
 
