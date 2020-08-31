@@ -136,7 +136,7 @@ struct GrowingNeuralCellularAutomata: ParsableCommand {
       let (loss, ruleGradient) = valueWithGradient(at: cellRule) { cellRules -> Tensor<Float> in
         var state = initialBatch
         for _ in 0..<steps {
-          state = cellRule(state)
+          state = cellRules(state)
           LazyTensorBarrier()
         }
 
